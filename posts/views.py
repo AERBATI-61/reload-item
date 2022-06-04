@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.views.generic import View, TemplateView
-from .models import Activity, Organization
+from .models import Activity
 from django.http import JsonResponse
 
 

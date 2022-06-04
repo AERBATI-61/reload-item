@@ -9,7 +9,3 @@ admin.site.register(Activity, BlogAdmin)
 
 
 
-class OrgAdmin(admin.ModelAdmin):
-    list_display = ('org_name', 'authorized', 'slug')
-
-admin.site.register(Organization, OrgAdmin)
